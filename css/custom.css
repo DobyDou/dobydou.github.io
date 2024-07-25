@@ -1,0 +1,73 @@
+/* 定义 PingFang 字体 */
+@font-face {
+  font-family: 'PingFang';
+  font-weight: 100;
+  font-style: normal;
+  src: local('PingFang ExtraLight'), local('PingFang-SC-Ultralight');
+}
+
+@font-face {
+  font-family: 'PingFang';
+  font-weight: 200;
+  font-style: normal;
+  src: local('PingFang Light'), local('PingFang-SC-Light');
+}
+
+@font-face {
+  font-family: 'PingFang';
+  font-weight: 400;
+  font-style: normal;
+  src: local('PingFang Regular'), local('PingFang-SC-Regular');
+}
+
+@font-face {
+  font-family: 'PingFang';
+  font-weight: 500;
+  font-style: normal;
+  src: local('PingFang Medium'), local('PingFang-SC-Medium');
+}
+
+@font-face {
+  font-family: 'PingFang';
+  font-weight: 600;
+  font-style: normal;
+  src: local('PingFang Bold'), local('PingFang-SC-Bold');
+}
+
+@font-face {
+  font-family: 'PingFang';
+  font-weight: 700;
+  font-style: normal;
+  src: local('PingFang Heavy'), local('PingFang-SC-Semibold');
+}
+
+
+/* 应用自定义字体到 body 元素 */
+body {
+  font-family: 'PingFang', sans-serif;
+}
+
+/* 示例应用不同字体样式到不同 HTML 元素 */
+.extra-light {
+  font-weight: 100;
+}
+
+.light {
+  font-weight: 200;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.heavy {
+  font-weight: 700;
+}

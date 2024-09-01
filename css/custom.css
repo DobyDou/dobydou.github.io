@@ -72,12 +72,11 @@ body {
   font-weight: 700;
 }
 
-/* 调整图标与简介之间的距离 */
+/* 提高选择器的优先级 */
 .about .intro {
-    /* 这里可以是你的简介的 CSS 类选择器 */
+    /* 可能你的 intro 也需要样式调整，确保选择器正确 */
 }
 
-/* custom.css 文件中的自定义样式 */
 .about .icons {
     margin-top: 20px !important; /* 使用 !important 强制覆盖 */
 }
